@@ -1,3 +1,5 @@
+https://travis-ci.org/jonny2779/AngularTestStarter.svg
+
 AngularTodo
 ===========
 
