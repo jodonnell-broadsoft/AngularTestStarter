@@ -72,7 +72,7 @@ Then add the build image to the readme (i.e. ![alt tag](https://travis-ci.org/jo
 
 ```
  
-===Sample Karma.conf.js file
+##Sample Karma.conf.js file
 
 ```
 // Karma configuration
