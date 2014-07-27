@@ -1,4 +1,4 @@
-https://travis-ci.org/jonny2779/AngularTestStarter.svg
+<image src="https://travis-ci.org/jonny2779/AngularTestStarter.svg" />
 
 AngularTodo
 ===========
