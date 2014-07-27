@@ -2,7 +2,11 @@
 AngularTodo
 ===========
 
-An app to test out basic AJS along with Jasmine 2.0, Karma 0.12, Karma-Jasmine 0.2.2 and Travis
+An app to test out basic AJS along with Jasmine 2.0, Karma 0.12, Karma-Jasmine 0.2.2 and Travis.
+
+This project started with a great post at http://andyshora.com/unit-testing-best-practices-angularjs.html
+
+This is how to set up your machine with this testing framework.
 
 ```
 How to get testing working for JS and AJS
@@ -71,10 +75,10 @@ add a package.json file with:
   }
 }
 
-
 ```
 
 ```
+Run npm install
 
 Then add the build image to the readme (i.e. ![alt tag](https://travis-ci.org/jonny2779/AngularTestStarter.svg?branch=master))
 
@@ -150,6 +154,16 @@ module.exports = function(config) {
   });
 };
 
+```
+
+#How to run the tests...
+
+```
+In terminal run: karma start
+
+In another terminal hit: karma run
+
+Note: The tests will also run automatically in the first window everytime you save
 ```
 
 
