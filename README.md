@@ -1,4 +1,4 @@
-<image src="https://travis-ci.org/jonny2779/AngularTestStarter.svg" />
+![alt tag](https://travis-ci.org/jonny2779/AngularTestStarter.svg?branch=master)
 
 AngularTodo
 ===========
