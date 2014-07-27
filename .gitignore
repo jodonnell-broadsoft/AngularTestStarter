@@ -2,3 +2,4 @@
 *_node_modules.xml
 jsLibraryMappings.xml
 workspace.xml
+node_modules/*
