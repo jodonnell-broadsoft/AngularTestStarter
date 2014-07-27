@@ -3,3 +3,4 @@
 jsLibraryMappings.xml
 workspace.xml
 .idea/*
+node_modules/*
