@@ -51,22 +51,30 @@ before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 
+```
 add a package.json file with:
+```
 
 {
-    "name": "AngularTestStarter",
-    "branchVersion": "1.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jonny2779/AngularTodo.git"
-    },
-    "devDependencies": {
-        "karma": "~0.10"
-    },
-    "scripts": {
-        "test": "karma start --single-run --browsers PhantomJS"
-    }
+  "name": "AngularTestStarter",
+  "branchVersion": "1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonny2779/AngularTodo.git"
+  },
+  "devDependencies": {
+    "karma": "~0.12.0",
+    "karma-jasmine": "^0.2.2"
+  },
+  "scripts": {
+    "test": "karma start --single-run --browsers PhantomJS"
+  }
 }
+
+
+```
+
+```
 
 Then add the build image to the readme (i.e. ![alt tag](https://travis-ci.org/jonny2779/AngularTestStarter.svg?branch=master))
 
