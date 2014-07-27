@@ -1,5 +1,4 @@
 ![alt tag](https://travis-ci.org/jonny2779/AngularTestStarter.svg?branch=master)
-
 AngularTodo
 ===========
 
