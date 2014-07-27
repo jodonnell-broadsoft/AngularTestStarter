@@ -2,7 +2,7 @@
 AngularTodo
 ===========
 
-An app to test out basic AJS along with Jasmine, Karma and Travis
+An app to test out basic AJS along with Jasmine 2.0, Karma 0.12, Karma-Jasmine 0.2.2 and Travis
 
 ```
 How to get testing working for JS and AJS
