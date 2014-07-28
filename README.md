@@ -13,7 +13,7 @@ How to get testing working for JS and AJS
 
 Install Jasmine by copying the files from here…
 
-https://github.com/pivotal/jasmine/releases
+https://github.com/pivotal/jasmine/releases/download/v2.0.0/jasmine-standalone-2.0.0.zip
 
 lib is the folder that has the src of jasmine that you need.
 spec has your tests in it.
@@ -68,7 +68,10 @@ add a package.json file with:
   },
   "devDependencies": {
     "karma": "~0.12.0",
-    "karma-jasmine": "^0.2.2"
+    "karma-jasmine": "^0.2.0",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-cli": "~0.0.4",
+    "karma-phantomjs-launcher": "~0.1"
   },
   "scripts": {
     "test": "karma start --single-run --browsers PhantomJS"
